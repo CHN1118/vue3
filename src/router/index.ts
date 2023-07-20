@@ -4,7 +4,7 @@ import { createRouter, createWebHashHistory, createWebHistory } from 'vue-router
 import layout from '@/views/layout/index.vue'
 let router = createRouter({
     // 设置路由模式
-    history: createWebHistory(),
+    history: createWebHashHistory(),
     // 设置路由对象
     routes: [
         { path: '/', redirect: '/layout' },

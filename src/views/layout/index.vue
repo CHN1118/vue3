@@ -14,6 +14,6 @@ export default {
   <!-- 二级路由的出口 -->
   <router-view></router-view>
   <!-- 底部通栏组件 -->
-  <AppFooterVue></AppFooterVue>
+  <!-- <AppFooterVue></AppFooterVue> -->
 </template>
-<style scoped lang="less"></style>
+<style scoped lang="less"></style>``

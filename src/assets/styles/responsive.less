@@ -44,4 +44,91 @@
 @media (max-width:700px) {}
 
 /* <=480px时 */
-@media (max-width:480px) {}
+@media (max-width:480px) {
+    .home {
+        padding-top: 30px !important;
+
+        .bgcone1 {
+            display: none !important;
+        }
+
+        .bgctwo1 {
+            display: none !important;
+        }
+
+        .opimg_s {
+            display: block !important;
+        }
+
+        .bgcone {
+            display: block !important;
+        }
+
+        .bgctwo {
+            display: block !important;
+        }
+
+        .opimg_o {
+            display: none !important;
+        }
+    }
+
+    .app_topnav {
+        height: 70px !important;
+    }
+
+    .logo_title {
+        text-align: left !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+
+        h1 {
+            font-size: 14px !important;
+            font-weight: 700;
+            font-family: Manrope-Bold;
+        }
+
+        p {
+            font-size: 12px !important;
+            font-family: Manrope-Regular;
+        }
+    }
+
+    .container {
+        padding: 0 10px !important
+    }
+}
+
+/* <=380px时 */
+@media (max-width:380px) {
+    .app_topnav {
+        .container {
+            padding: 0 5px !important;
+        }
+    }
+
+    .layer_logo {
+        margin-top: 15px;
+        margin-right: 5px !important;
+    }
+
+    .logo_title {
+        text-align: left !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+
+        .hone {
+            font-size: 14px !important;
+            font-weight: 700;
+            font-family: Manrope-Bold;
+        }
+
+        p {
+            display: none !important;
+            font-size: 12px !important;
+            font-family: Manrope-Regular;
+        }
+    }
+}

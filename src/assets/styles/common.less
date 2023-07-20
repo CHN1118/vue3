@@ -8,11 +8,11 @@
 html {
     height: 100%;
     font-size: 14px;
-    background-color: #000;
+    background-color: #000239;
 }
 
 
-//引入字体
+// //引入字体
 @font-face {
     font-family: 'Manrope-Bold';
     src: url('../font/Manrope-Bold.ttf');
@@ -35,11 +35,10 @@ html {
 
 
 body {
-    height: 100%;
     width: 100vw;
-    background-color: #000;
+    background-color: #000239;
     color: #fff;
-    font: 1em/1.4 'Manrope-ExtraBold', 'Manrope-Bold', 'Manrope-Regular', 'Manrope-Chinese', 'Microsoft Yahei', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    // font: 1em/1.4 'Manrope-ExtraBold', 'Manrope-Bold', 'Manrope-Regular', 'Manrope-Chinese', 'Microsoft Yahei', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     //无法选中文字
     user-select: none;
     overflow-x: hidden;
@@ -52,8 +51,8 @@ h4,
 p,
 dl,
 dd {
-    padding: 0;
-    margin: 0;
+    padding: 0 !important;
+    margin: 0 !important
 }
 
 a {
@@ -298,4 +297,39 @@ ul {
         display: block;
         margin: 0 auto;
     }
+}
+
+
+// 文字颜色
+.bpColor {
+    background: linear-gradient(180deg, #00FFEC 0%, #E785FF 47.4%, #7B97FC 97.4%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+
+.cord {
+    -webkit-backdrop-filter: blur(25px);
+    backdrop-filter: blur(25px) !important;
+    border: 2px solid;
+    border-right: 1px solid rgba(0, 255, 236, .5);
+    border-bottom: 1px solid rgba(231, 133, 255, .5);
+    border-left: 1px solid rgba(159, 50, 50, .5);
+    border-top: 1px solid rgba(123, 151, 252, .5);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), linear-gradient(94.31deg, rgba(100, 218, 255, 0.3) 2.67%, rgba(255, 118, 225, 0.201) 100%);
+    border-radius: 12px;
+}
+
+.cord1 {
+    -webkit-backdrop-filter: blur(0px);
+    backdrop-filter: blur(0px) !important;
+    border: 2px solid;
+    border-right: 1px solid rgba(0, 255, 236, .5);
+    border-bottom: 1px solid rgba(231, 133, 255, .5);
+    border-left: 1px solid rgba(159, 50, 50, .5);
+    border-top: 1px solid rgba(123, 151, 252, .5);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), linear-gradient(94.31deg, rgba(100, 218, 255, 0.1) 2.67%, rgba(255, 118, 225, 0.1) 100%);
+    border-radius: 12px;
 }
